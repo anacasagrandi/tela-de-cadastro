@@ -5,7 +5,7 @@
             document.getElementById('bairro').value=("");
             document.getElementById('cidade').value=("");
             document.getElementById('uf').value=("");
-            document.getElementById('ibge').value=("");
+            // document.getElementById('ibge').value=("");
     }
 
     function meu_callback(conteudo) {
@@ -15,7 +15,7 @@
             document.getElementById('bairro').value=(conteudo.bairro);
             document.getElementById('cidade').value=(conteudo.localidade);
             document.getElementById('uf').value=(conteudo.uf);
-            document.getElementById('ibge').value=(conteudo.ibge);
+            // document.getElementById('ibge').value=(conteudo.ibge);
         } //end if.
         else {
             //CEP não Encontrado.
@@ -43,7 +43,7 @@
                 document.getElementById('bairro').value="...";
                 document.getElementById('cidade').value="...";
                 document.getElementById('uf').value="...";
-                document.getElementById('ibge').value="...";
+                // document.getElementById('ibge').value="...";
 
                 //Cria um elemento javascript.
                 var script = document.createElement('script');

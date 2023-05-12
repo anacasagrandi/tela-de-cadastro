@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <main>
+
     <!-- Redes Sociais -->
     <h1>Criar conta</h1>
     <div class="social-media">
@@ -16,11 +18,13 @@
         <a href="https://www.facebook.com/" target="_blank"><img src="assets/facebook.png" alt="facebook"></a>
         <a href="https://br.linkedin.com/" target="_blank"><img src="assets/linkedin.png" alt="linkedin"></a>
     </div>
+
     <!--  -->
     <!-- Linha com divisao -->
     <div class="alternative">
     <span>OU</span>
     </div>
+
     <!--   -->
     <!-- Inicio do formulario -->
     <form action="https://api.sheetmonkey.io/form/svggx6e9UqVcfciRG26VFf" method="post">
@@ -36,21 +40,37 @@
         </label>
 
         <label> 
-        <span></span> 
-        <input name="text">
+        <span>Rua:</span> 
+        <input name="rua" type="text" id="rua" size="60">
         </label>
 
-        <label>
-        <span></span> 
-        <input type="text">
+        <label> 
+        <span>Bairro:</span> 
+        <input name="bairro" type="text" id="bairro" size="40">
         </label>
 
-        <label>
-        <span></span> 
-        <input type="text">
+        <label> 
+        <span>Cidade:</span> 
+        <input name="cidade" type="text" id="cidade" size="40">
         </label>
 
+        <label> 
+        <span>Estado:</span> 
+        <input name="uf" type="text" id="uf" size="2">
+        </label>
+        <input type="submit" value="Enviar">
     </form>
   </main> 
+
+  <!--  -->
+  <!-- Imagem lateral -->
+<section class="images">
+  <img src="assets/mobile.svg" alt="mobile">
+  <div class="circle"></div>
+</section>
+
+<!-- -->
+<!-- add java -->
+<script src="javascript.js"></script>
 </body>
 </html>
